@@ -1,21 +1,25 @@
-/* 
+/*
     Reset Selector - don't remove this!
 */
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
-/* 
+
+/*
     You can modify everything after this point.
 */
 
-/* Link Styles */
+
 a:link, a:visited {
     color: blue;
-    text-decoration: none;
-    font-weight: 500;
+	text-decoration: none;
+	font-weight: 500;
 }
+
 
 a:focus, a:hover {
     background-color: #ddddff;
@@ -25,104 +29,72 @@ a:focus, a:hover {
     transition-property: background;
 }
 
-/* Body Styles */
+/*styling added to body*/
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.75;
-    color: #333;
-    max-width: 800px; /* Ensures an optimal line length */
-    margin: 0 auto;
-    padding: 20px;
+font-family: 'Helevetica Neue', Arial, Helvetica, sans-serif;
+font-size: 18px;
+line-height: 1.75;
+color: #333;
+max-width: 800px; /*line lingth*/
+margin: 0 auto;
+padding: 20px;
+
 }
 
-/* Code Block */
+
 code {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #f4f4f4;
-    padding: 4px 6px;
-    border-radius: 4px;
-    font-size: 0.9em;
+   
 }
 
-/* Heading Styles */
+
 h1, h2, h3 {
-    line-height: 1.2;
-    font-weight: 700;
-    color: #222;
-    margin-bottom: 0.5em;
+
+
 }
+
 
 h1 {
-    font-size: 2.4em;
-    margin-top: 0.5em;
-    margin-bottom: 0.8em;
+
+
 }
+
 
 h2 {
-    font-size: 1.8em;
-    margin-top: 1.2em;
-    margin-bottom: 0.6em;
+
+
 }
+
 
 h3 {
-    font-size: 1.4em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+   
 }
 
-/* Header */
+
 header {
-    text-align: center;
-    margin-bottom: 40px;
+   
 }
 
-/* Main Section */
+
 main {
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 20px;
-    line-height: 1.75;
+
+
 }
 
-/* Paragraph Styles */
+
 p {
-    margin-bottom: 1.2em;
-    font-size: 1em;
-    line-height: 1.75;
-    color: #555;
+
+
 }
 
-/* Section Styles */
-#intro, #how-does-it-work, #influence, #joke {
-    margin-bottom: 2em;
+
+#intro {
+
+
 }
 
-/* Typography and Rhythm Consistency */
-h1, h2, h3, p, section {
-    line-height: 1.75;
-    max-width: 70ch; /* Optimal characters per line */
-    text-align: left;
+
+#how-does-it-work, #influence, #joke {
+
+
 }
 
-/* Indentation, Margins, and Vertical Rhythm */
-h2, h3 {
-    padding-left: 0.5em;
-}
-
-p, a, code {
-    margin-left: 1.5em;
-}
-
-/* Font Weights and Styles */
-body, p {
-    font-weight: 400;
-}
-
-h1, h2, h3 {
-    font-weight: 700;
-}
-
-code, a {
-    font-weight: 500;
-}
