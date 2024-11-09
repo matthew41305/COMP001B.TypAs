@@ -109,5 +109,32 @@ p {
 
 }
 
+/* Typography and Rhythm Consistency */
+h1, h2, h3, p, section {
+    line-height: 1.75;
+    max-width: 70ch; /* Optimal characters per line */
+    text-align: left;
+}
 
+/* Indentation, Margins, and Vertical Rhythm */
+h2, h3 {
+    padding-left: 0.5em;
+}
+
+p, a, code {
+    margin-left: 1.5em;
+}
+
+/* Font Weights and Styles */
+body, p {
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+code, a {
+    font-weight: 500;
+}
 
